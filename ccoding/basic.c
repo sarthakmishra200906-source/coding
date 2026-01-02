@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    printf("hellow pw ");
+    printf("hellow world");
     return 0;
 }
