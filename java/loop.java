@@ -1,7 +1,13 @@
+import java.util.Scanner;
 public class loop {
     public static void main(String[] args) {
-        for(int i=1;i<=10;i++){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number : ");
+        int a=sc.nextInt();
+        
+        for(int i=1;i<=a;i++){
             System.out.println(i);
         }
+        sc.close();
     }
 }
