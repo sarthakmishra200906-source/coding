@@ -1,0 +1,18 @@
+   *{
+    margin: 0%;
+   }
+   
+   h1{
+            background-color: blue;
+            color:red ;
+            text-align: center;
+            width: 50%;
+        }P{
+            width: 80%;
+            background-color: aquamarine;
+        }
+        body{
+            color:white;
+            background-color: black;
+            
+        }
