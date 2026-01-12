@@ -1,0 +1,78 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shape {
+
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle {
+
+    border-radius: 50%;
+
+}
+
+#diamond {
+    rotate: 45deg;
+    height: 141px;
+    width: 141px;
+    margin-top: 20%;
+    translate: 30px;
+
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#square:hover {
+    background-color: red;
+}
+
+#diamond h1 {
+
+    rotate: -45deg;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+#circle:hover {
+    background-color: green;
+}
+
+#diamond:hover {
+    background-color: blue;
+}
+
+    
+
