@@ -1,0 +1,167 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html,body{
+height: 100%;
+width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#headder{
+    height: 10vh;
+    width: 100%;
+    background-color: transparent;
+    
+}
+#page1{
+    height: 76vh;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+     background-image: url('https://i.pinimg.com/736x/86/12/6f/86126fd241d3d1a3aaa01854a48eba8b.jpg'); 
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    
+    background-color: rgba(255, 255, 255, 0.8); 
+    background-blend-mode: overlay;
+ 
+
+}
+
+#content{
+    
+    height: 100%;
+    width: 30%;
+    margin-right: 5%;
+    background-color:transparent;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+#vedio{
+    height: 100%;
+    width: 48%;
+    
+    background-color:transparent;
+}
+#info{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(3, 33, 88);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+     color: white ;
+}
+.navigation{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#headder img{
+height: 40px;
+width: 40px;
+}
+#content button{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: 60px;
+    border-color: transparent;
+    background-color: transparent;
+    border: none;
+    
+   
+    
+    
+    
+}
+
+   
+   
+
+#content{
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#content h1{
+    font-size: 50px;
+}
+#content h6{
+    font-size: 20px;
+    font-weight: lighter;
+   
+}
+#button1 h4{
+   
+    
+   
+    background-color: rgb(39, 17, 235);
+    border-color: white;
+    color: white;
+     width: 100%;
+    height:  30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid blue;
+    
+
+}
+#button2{
+    width: 20%;
+    height: 30px;
+    margin-left: 30px;
+  
+    background-color: white;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+     border: 1px solid blue;
+   
+
+
+
+
+}
+#box1 {
+    width: 600px;
+    height: 400px;  
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 60px;
+  
+}
+#box1 iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+#lastinfo{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    
+}
