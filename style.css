@@ -15,7 +15,11 @@ width: 100%;
 #headder{
     height: 10vh;
     width: 100%;
-    background-color: transparent;
+    background-color: white;
+    position: fixed;
+    top: 0;            
+    left: 0;
+    z-index: 3;
     
 }
 #page1{
@@ -53,6 +57,7 @@ width: 100%;
     background-color:transparent;
 }
 #info{
+    margin-top: 10vh;
     height: 30px;
     width: 100%;
     background-color: rgb(3, 33, 88);
@@ -61,6 +66,8 @@ width: 100%;
     align-content: center;
     justify-content: center;
      color: white ;
+      
+   
 }
 .navigation{
     display: flex;
