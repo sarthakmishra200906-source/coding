@@ -11,5 +11,6 @@ public class revtri {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
