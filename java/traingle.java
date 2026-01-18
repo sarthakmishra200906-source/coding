@@ -12,5 +12,6 @@ public class traingle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
