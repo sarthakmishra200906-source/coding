@@ -14,6 +14,7 @@ public class profun {
       sum(a,b);
       int sum=sum(a,b);
       System.out.println("your product of 2 no is :"+ sum);
+      sc.close();
 
 
     }
