@@ -1,10 +1,12 @@
 import java.util.*;
 
 public class prime {
-    public static boolean prime(int a) {
+    public static boolean Prime(int a) {
+
         if (a == 2) {
-            return true;
+            return false;
         }
+
         for (int i = 2; i <= Math.sqrt(a); i++) {
             if (a % i == 0) {
                 return false;
@@ -17,8 +19,8 @@ public class prime {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your number : ");
         int a = sc.nextInt();
-        prime(a);
-        System.out.println(prime(a));
+        Prime(a);
+        System.out.println(Prime(a));
         sc.close();
 
     }
