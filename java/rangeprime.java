@@ -30,6 +30,7 @@ public class rangeprime {
         System.out.println("Enter your number n and get prime no from 2 to n : ");
         int n = sc.nextInt();
         primerange(n);
+        sc.close();
 
     }
 }
