@@ -2,14 +2,17 @@ import java.util.*;
 
 public class pairarr {
     public static int ispared(int arr1[]) {
+        int tp =0;
         for (int i = 0; i < arr1.length; i++) {
             int curr = arr1[i];
             for (int j = i + 1; j < arr1.length; j++) {
                 System.out.print("(" + curr + "," + arr1[j] + ")");
-
+                tp++;
             }
             System.out.println();
+          
         }
+        System.out.println("the total pair for given no is " + tp);
 
         return 0;
     }
