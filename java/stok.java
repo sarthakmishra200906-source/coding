@@ -29,5 +29,7 @@ public class stok {
         int result = buysellstoks(prices);
 
         System.out.println("your max profit is " + result);
+        sc.close();
     }
+    
 }
