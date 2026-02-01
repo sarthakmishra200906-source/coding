@@ -25,6 +25,7 @@ public class Main {
         
         // 4. Output the final result
         System.out.println("Spiral Order: " + result);
+        sc.close();
     }
 
     public static List<Integer> getSpiralOrder(int[][] matrix) {
@@ -70,4 +71,5 @@ public class Main {
         }
         return res;
     }
+    
 }
