@@ -1,0 +1,93 @@
+[33md868d99[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: reset: moving to origin/main
+[33md868d99[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{1}: pull origin main --rebase (finish): returning to refs/heads/main
+[33md868d99[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: pull origin main --rebase (pick): brought back the code from the history of commit
+[33m4d8e55f[m HEAD@{3}: pull origin main --rebase (start): checkout 4d8e55f1a7cfd7604a4f9ae5fa34398c37f613a3
+[33m0bbf933[m HEAD@{4}: commit: brought back the code from the history of commit
+[33mb6d4c50[m HEAD@{5}: checkout: moving from main to main
+[33mb6d4c50[m HEAD@{6}: commit: learned to calculate the digonal sum of matrix
+[33mb007c7c[m HEAD@{7}: commit: learned to print spiral matrix
+[33md10b8db[m HEAD@{8}: commit: learned to print spiral matrix
+[33mfffca35[m HEAD@{9}: commit: fixed warning
+[33m3528f6a[m HEAD@{10}: commit: learned to calculate max profit for a given stock price
+[33md6dbf2c[m HEAD@{11}: commit: learned to calculate taped rain water in bar and also imp of giving comment
+[33m2ba50cb[m HEAD@{12}: commit: kadanns algorithm
+[33m60d12f0[m HEAD@{13}: commit: learned counting short.java
+[33m1fc09b0[m HEAD@{14}: commit: learned inbuilt short in java
+[33ma82e826[m HEAD@{15}: commit: learned insersion short
+[33m1a54894[m HEAD@{16}: commit: learned selectionshort
+[33m3b50d9d[m HEAD@{17}: commit: learned bubble sorting
+[33m8979cdc[m HEAD@{18}: commit: learned kadanes algorithm
+[33m8ea35b5[m HEAD@{19}: commit: printing sub array its indivisual line sum and largest and smallest value
+[33m2fb5d20[m HEAD@{20}: commit: learned to creat a sub array in id array
+[33md11c5d7[m HEAD@{21}: commit: just added total pair count
+[33m86c8338[m HEAD@{22}: commit: learned to pair two array
+[33m9eb0699[m HEAD@{23}: commit: learning binary search in java
+[33mc9f17fc[m HEAD@{24}: commit: Confirmed working gitignore
+[33m60d57a6[m HEAD@{25}: commit: Remove tracked class files and add gitignore
+[33m4e62231[m HEAD@{26}: commit: printing of reverse of an array
+[33mf6170bd[m HEAD@{27}: commit: printing of larger no in an array
+[33m9fb8f48[m HEAD@{28}: commit: learning linear search in java
+[33m4b90007[m HEAD@{29}: commit: code to check even or odd
+[33mec1c923[m HEAD@{30}: commit: avrage of 3 no using funstion
+[33meb03f15[m HEAD@{31}: commit: added exe file also
+[33m27f2e6d[m HEAD@{32}: commit: tell if a no is prime or not
+[33m08129d4[m HEAD@{33}: commit: fixed warning
+[33mb6ecddc[m HEAD@{34}: commit: printing factorial through normal funstion
+[33mcd5bfbe[m HEAD@{35}: commit: printin that a given no is prime or not
+[33m0ad09da[m HEAD@{36}: commit: printin prime number in a given range of 2 to n
+[33md8e159d[m HEAD@{37}: commit: printing factorial through recurcison in funstion
+[33md53a0d9[m HEAD@{38}: commit: practicing loop by making a hollow rectriangle
+[33mf519e31[m HEAD@{39}: commit: fixed one warning
+[33mf8b33c2[m HEAD@{40}: commit: pushing code
+[33ma02c892[m HEAD@{41}: commit: printed zero and one triangle logic if i +j whole modlus 2 == zero print 1 else print 0
+[33m6b38535[m HEAD@{42}: commit: printed complex pryamide structure in java
+[33mb1ba0d3[m HEAD@{43}: commit: making of number pryamid in java
+[33m0479a0a[m HEAD@{44}: commit: fixed warning in triangle.java
+[33m097f64c[m HEAD@{45}: commit: fixed warning in reverse triangle
+[33ma550a8d[m HEAD@{46}: commit: printing floid trianglr in loop
+[33m1575108[m HEAD@{47}: commit: printing charecter loop in java
+[33m6da4ad7[m HEAD@{48}: commit: printing reverse triangle in java
+[33m25f72ca[m HEAD@{49}: commit: printing forward triangle
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{50}: checkout: moving from main to main
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{51}: checkout: moving from web1 to main
+[33md92699c[m HEAD@{52}: commit: Cleaned web1 branch and kept only website files
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{53}: reset: moving to HEAD
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{54}: checkout: moving from web1 to web1
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{55}: checkout: moving from web1 to web1
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{56}: checkout: moving from main to web1
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{57}: checkout: moving from web1 to main
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{58}: checkout: moving from main to web1
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{59}: checkout: moving from web1 to main
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{60}: checkout: moving from web1 to web1
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{61}: checkout: moving from main to web1
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{62}: checkout: moving from web1 to main
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{63}: checkout: moving from main to web1
+[33md23cf14[m[33m ([m[1;31morigin/web1[m[33m)[m HEAD@{64}: commit: just fixed the headder
+[33mbcbe10f[m HEAD@{65}: commit: nade my first copy website using html css by own
+[33m71ad73a[m HEAD@{66}: commit: learned to make my first game
+[33m695257b[m HEAD@{67}: commit: learning basic html and css
+[33m5b33db6[m HEAD@{68}: commit: learning to build website
+[33mce14106[m HEAD@{69}: commit: firststyle
+[33me06677e[m HEAD@{70}: commit: second.html
+[33m7f3ec39[m HEAD@{71}: commit: firstwebsite
+[33mb3041b1[m HEAD@{72}: commit: learning branching of loop in java
+[33m445e90a[m HEAD@{73}: commit: learning loop in java
+[33m7d28cb6[m HEAD@{74}: commit: learning loop in java
+[33m847bdfb[m HEAD@{75}: commit: profit loss calculator
+[33m3c32c7c[m HEAD@{76}: commit: learning if else sintax
+[33maadbab2[m HEAD@{77}: commit: using of arithmatic operator in java
+[33m254bf00[m HEAD@{78}: commit: read char in java
+[33me90c8d5[m HEAD@{79}: commit: taking out simple intrest
+[33m268134f[m HEAD@{80}: commit: addition of 2 numbeer
+[33mad3433c[m HEAD@{81}: commit: taking input and output
+[33m719fa66[m HEAD@{82}: commit: taking input and output in java
+[33mb34e645[m HEAD@{83}: commit: input output in java
+[33mbe0e088[m HEAD@{84}: commit: just testing
+[33m4ed59a4[m HEAD@{85}: commit: hellowworld in java
+[33m8c97fe7[m HEAD@{86}: commit: first hellow world program
+[33m8ee8686[m HEAD@{87}: commit: first hellow world program cpp
+[33mcf6e8ba[m HEAD@{88}: commit: Added c++ folder with source code
+[33m4a964e6[m HEAD@{89}: commit: making better
+[33m6f1128b[m HEAD@{90}: commit: addition of element of array
+[33m55e0ac3[m HEAD@{91}: commit: coddingall
+[33mb31ef0b[m HEAD@{92}: commit (initial): firstprogram.c
