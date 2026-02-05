@@ -12,7 +12,7 @@ int arr[max];
 void enqueue(int x)
 {
    // condition to check weather the stack is full oe not
-        if (rear = max - 1)
+        if (rear == max - 1)
     {
         printf("stack overflow your queue is full ");
          // if not full check if stack is fully empty or not if so make pointer to shift from -1 to 0 and put value of x
@@ -40,7 +40,7 @@ void dequeue()
         printf("stack underflow nothing to deleat ");
     }
      // then check if all the elemnt alrady dequed in the queue or not if so make front and rear = -1 as in this case queue is empty
-        else if (front = rear)
+        else if (front == rear)
 
     {
         front = rear = -1;
