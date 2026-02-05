@@ -48,7 +48,7 @@ void dequeue()
      // if none of the avove condition exist mean stack has some value so deleat from the front as ti follows a(fifo)
         else
     {
-        printf("\nThe dequeued element is  : %d", arr[front]);
+        printf("\nThe dequeued element is : %d", arr[front]);
         front++;
     }
 }
@@ -72,8 +72,7 @@ void display()
 int main()
 { 
      // define x foe taking value to enqueue and choice for taking value for performing operation
-        int x,
-        choice; 
+        int x,choice; 
         // while 1 in c means 1 represent true so loop will be running continusly
         while (1)
 
