@@ -15,7 +15,9 @@ public class substring {
         int si= sc.nextInt();
          System.out.println("enter ending index  : ");
         int ei= sc.nextInt();
-       // System.out.println(substring1(str,si,ei));
-       System.out.println(str.substring(si,ei););
+        //printing from function metod 
+        System.out.println(substring1(str,si,ei));
+        //printing from inbuilt function 
+       System.out.println(str.substring(si,ei));
     }
 }
