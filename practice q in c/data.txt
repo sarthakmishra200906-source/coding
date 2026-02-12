@@ -1,0 +1,5 @@
+20255101,1,nilanchal,firstgate,05:20 pm.
+20255102,2,daimond,akashinstitute,05:20 pm.
+20255103,3,tajus,panitanki,05:20 pm.
+20255104,4,prashanti,balipadasai,05:20 pm.
+20255105,5,basuali,gusnagao,05a:20 pm.
