@@ -5,16 +5,17 @@ public class overriding {
         Deer d = new Deer();
         d.eat();
 
-        
     }
 }
+
 class Animal {
-    void eat(){
-        System.out.println("eats anything" );
+    void eat() {
+        System.out.println("eats anything");
     }
 }
-class Deer extends Animal{
-void eat(){
-    System.out.println("Eats grass");
-}
+
+class Deer extends Animal {
+    void eat() {
+        System.out.println("Eats grass");
+    }
 }
