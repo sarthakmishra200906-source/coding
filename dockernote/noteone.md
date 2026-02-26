@@ -176,3 +176,16 @@ ad0f30867907   clubexcel/docker-workshop   "docker-entrypoint.s…"   7 minutes 
 f5e1080787ca   hello-world                 "/hello"                 48 minutes ago   Exited (0) 48 minutes ago                                                 angry_faraday
 8a09969de7ed   hello-world                 "/hello"                 2 hours ago      Exited (0) 2 hours ago                                                    sarthak
 sarthak@DESKTOP-39G6DQ5:~$
+docker container is actually running instance where as docer immage is static snapshot
+resource is actually used by docer container 
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.     
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal
