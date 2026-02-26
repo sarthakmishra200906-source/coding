@@ -189,3 +189,145 @@ To generate this message, Docker took the following steps:
     executable that produces the output you are currently reading.     
  4. The Docker daemon streamed that output to the Docker client, which sent it
     to your terminal
+    docker run --name workshop-sql -e MYSQL_ROOT_PASSWORD=my-password -p 3307:3306 -d mysql to prevent my sql from crshing 
+    sarthak@DESKTOP-39G6DQ5:~$ docker run -dp 3000:3000 clubexcel/docker-worksho
+Unable to find image 'clubexcel/docker-worksho:latest' locally
+docker: Error response from daemon: pull access denied for clubexcel/docker-worksho, repository does not exist or may require 'docker login'
+
+Run 'docker run --help' for more information
+sarthak@DESKTOP-39G6DQ5:~$ docker run -dp 3000:3000 clubexcel/docker-workshop
+Unable to find image 'clubexcel/docker-workshop:latest' locally
+latest: Pulling from clubexcel/docker-workshop
+2b752f7c71fd: Pull complete
+820b96539f52: Pull complete
+fc1c5222d85f: Pull complete
+8d513d1f314d: Pull complete
+589002ba0eae: Pull complete
+aa2cb8bf69ce: Pull complete
+0936272ed81e: Pull complete
+de3d8c97cc6f: Pull complete
+Digest: sha256:a8c5999524a0451111f3095454d4d6daecf53bca1eaa7196a13cbeeeb208c79d
+Status: Downloaded newer image for clubexcel/docker-workshop:latest
+908ed2d4fcf484faded74b12041b687a186489791edf3bec5dc4df6b2df58822
+sarthak@DESKTOP-39G6DQ5:~$ docker ps
+CONTAINER ID   IMAGE                       COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+908ed2d4fcf4   clubexcel/docker-workshop   "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   condescending_brahmagupta
+sarthak@DESKTOP-39G6DQ5:~$ docker run -it ubuntu
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+01d7766a2e4a: Pull complete
+fd8cda969ed2: Download complete
+Digest: sha256:d1e2e92c075e5ca139d51a140fff46f84315c0fdce203eab2807c7e495eff4f9
+Status: Downloaded newer image for ubuntu:latest
+root@1e6ce40613c8:/# ls
+bin   dev  home  lib64  mnt  proc  run   srv  tmp  var
+boot  etc  lib   media  opt  root  sbin  sys  usr
+root@1e6ce40613c8:/# mkdir data
+root@1e6ce40613c8:/# exit
+exit
+sarthak@DESKTOP-39G6DQ5:~$ docker volume creat ubuntu-data
+docker: unknown command: docker volume creat
+
+Usage:  docker volume COMMAND
+
+Run 'docker volume --help' for more information
+sarthak@DESKTOP-39G6DQ5:~$ docker volume create ubuntu-data
+ubuntu-data
+sarthak@DESKTOP-39G6DQ5:~$ docker volume ls
+DRIVER    VOLUME NAME
+local     ubuntu-data
+sarthak@DESKTOP-39G6DQ5:~$ docker run -v ubuntu-data:/data ubuntu
+sarthak@DESKTOP-39G6DQ5:~$ docker run -v -it ubuntu-data:/data ubuntu
+docker: invalid reference format
+
+Run 'docker run --help' for more information
+sarthak@DESKTOP-39G6DQ5:~$ docker run -v ubuntu-data:/data ubuntu:22.04
+Unable to find image 'ubuntu:22.04' locally
+22.04: Pulling from library/ubuntu
+b1cba2e842ca: Pull complete
+8b74a9da3820: Download complete
+Digest: sha256:3ba65aa20f86a0fad9df2b2c259c613df006b2e6d0bfcc8a146afb8c525a9751
+Status: Downloaded newer image for ubuntu:22.04
+sarthak@DESKTOP-39G6DQ5:~$ docker run -v ubuntu-data:/data -it ubunt:22.04
+Unable to find image 'ubunt:22.04' locally
+docker: Error response from daemon: pull access denied for ubunt, repository does not exist or may require 'docker login'
+
+Run 'docker run --help' for more information
+sarthak@DESKTOP-39G6DQ5:~$ ls
+sarthak@DESKTOP-39G6DQ5:~$ docker ls
+docker: unknown command: docker ls
+
+Run 'docker --help' for more information
+sarthak@DESKTOP-39G6DQ5:~$ docker run -it ubuntu:22.04
+root@6cde7ead2a73:/# ls
+bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
+boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
+root@6cde7ead2a73:/# mkdir data
+root@6cde7ead2a73:/# ls
+bin   data  etc   lib    lib64   media  opt   root  sbin  sys  usr
+boot  dev   home  lib32  libx32  mnt    proc  run   srv   tmp  var
+root@6cde7ead2a73:/# docker volume ls
+bash: docker: command not found
+root@6cde7ead2a73:/# exit
+exit
+sarthak@DESKTOP-39G6DQ5:~$ docker ps
+CONTAINER ID   IMAGE                       COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+908ed2d4fcf4   clubexcel/docker-workshop   "docker-entrypoint.s…"   21 minutes ago   Up 21 minutes   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   condescending_brahmagupta
+sarthak@DESKTOP-39G6DQ5:~$ docker exec -it 908ed2d4fcf4 sh
+/app # cd/
+sh: cd/: not found
+/app # /# cd
+sh: /#: not found
+/app # exit
+sarthak@DESKTOP-39G6DQ5:~$ docker exec -it 908ed2d4fcf4 bash
+OCI runtime exec failed: exec failed: unable to start container process: exec: "bash": executable file not found in $PATH
+sarthak@DESKTOP-39G6DQ5:~$ docker exec -it 908ed2d4fcf4 sh
+/app # cd/
+sh: cd/: not found
+/app #  cd/
+sh: cd/: not found
+/app # scd/
+sh: scd/: not found
+/app # cd/
+sh: cd/: not found
+/app # ls
+README.md          package-lock.json  spec
+node_modules       package.json       src
+/app # cd /etc/
+/etc # ls
+alpine-release   issue            os-release       services
+apk              logrotate.d      passwd           shadow
+busybox-paths.d  modprobe.d       passwd-          shadow-
+crontabs         modules          periodic         shells
+fstab            modules-load.d   profile          ssl
+group            motd             profile.d        ssl1.1
+group-           mtab             protocols        sysctl.conf
+hostname         network          resolv.conf      sysctl.d
+hosts            nsswitch.conf    secfixes.d       todos
+inittab          opt              securetty        udhcpc
+/etc # cd todos
+/etc/todos # ls
+todo.db
+/etc/todos # docker volume create dodo-data
+sh: docker: not found
+/etc/todos # exit
+sarthak@DESKTOP-39G6DQ5:~$ docker volume create todo-data
+todo-data
+sarthak@DESKTOP-39G6DQ5:~$ docker container ls
+CONTAINER ID   IMAGE                       COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+908ed2d4fcf4   clubexcel/docker-workshop   "docker-entrypoint.s…"   29 minutes ago   Up 29 minutes   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   condescending_brahmagupta
+sarthak@DESKTOP-39G6DQ5:~$ docker container stop 908ed2d4fcf4
+908ed2d4fcf4
+sarthak@DESKTOP-39G6DQ5:~$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+sarthak@DESKTOP-39G6DQ5:~$ docker run -v todo-data:/etc/todos/ -p 3000:3000 -d
+docker: 'docker run' requires at least 1 argument
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+See 'docker run --help' for more information
+sarthak@DESKTOP-39G6DQ5:~$ docker container stop 908ed2d4fcf4
+908ed2d4fcf4
+sarthak@DESKTOP-39G6DQ5:~$ docker container start 908ed2d4fcf4
+908ed2d4fcf4
+sarthak@DESKTOP-39G6DQ5:~$
