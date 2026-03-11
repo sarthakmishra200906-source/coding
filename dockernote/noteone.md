@@ -331,3 +331,17 @@ sarthak@DESKTOP-39G6DQ5:~$ docker container stop 908ed2d4fcf4
 sarthak@DESKTOP-39G6DQ5:~$ docker container start 908ed2d4fcf4
 908ed2d4fcf4
 sarthak@DESKTOP-39G6DQ5:~$
+
+See 'docker run --help' for more information
+sarthak@DESKTOP-39G6DQ5:~$ docker container stop 908ed2d4fcf4
+908ed2d4fcf4
+sarthak@DESKTOP-39G6DQ5:~$ docker container start 908ed2d4fcf4
+908ed2d4fcf4
+sarthak@DESKTOP-39G6DQ5:~$ docker run -v todo-data:/etc/todos -d -p 3000:300
+0 clubexcel/docker-workshop
+60435ae94b3cd09134389ee71b3f450f5c816b320e6f3fe4cd1c41ce6617b3d6
+docker: Error response from daemon: failed to set up container networking: driver failed programming external connectivity on endpoint youthful_darwin (4ad3bf408d5dfa819642920351da8327ee102f0f47778a2274e9ba19ae61003e): Bind for 0.0.0.0:3000 failed: port is already allocated
+
+Run 'docker run --help' for more information
+sarthak@DESKTOP-39G6DQ5:~$ docker run -v todo-data:/etc/todos -d -p 3000:300
+0 clubexcel/docker-workshop
