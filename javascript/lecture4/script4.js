@@ -36,3 +36,7 @@ let arrfs=[1,2,3,4,5];
 arrfs.forEach((val)=>{
 console.log(val);
 });
+//some other array method 
+/* map method 
+filter method
+reduce method
