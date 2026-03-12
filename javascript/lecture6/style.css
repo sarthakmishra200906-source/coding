@@ -1,4 +1,11 @@
 body{
-    background-color: black;
+    background-color:white;
  color: white;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(41, 19, 130);
+    color:rgb(240, 236, 236);
+    border: 1px solid green;
 }
