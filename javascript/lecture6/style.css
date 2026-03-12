@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color:white;
  color: white;
 }
@@ -8,4 +8,12 @@ div{
     background-color: rgb(41, 19, 130);
     color:rgb(240, 236, 236);
     border: 1px solid green;
-}
+} */
+ .dark{
+    background-color: black;
+    color: white;
+ }
+ .light{
+    background-color: white;
+    color: black;
+ }
