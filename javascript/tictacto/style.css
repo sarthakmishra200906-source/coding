@@ -76,3 +76,7 @@ body {
 .hide {
     display: none;
 }
+#draw{
+    color: #ffffc7;
+    height: 4vmin;
+}
