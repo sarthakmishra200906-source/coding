@@ -7,6 +7,7 @@ for (let i of str) {
 }
 console.log(size);
 //for in loop
+
 let student = {
     name: "sarthak",
     age: 20,
