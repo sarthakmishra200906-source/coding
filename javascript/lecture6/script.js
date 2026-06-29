@@ -44,10 +44,22 @@ let modeBtn=document.querySelector("#mode");
      if(currMode==="light"){
          currMode="dark";
          document.querySelector("body").style.backgroundColor ="black";
+         document.querySelector("#website").style.color ="white";
 
      }else{
          currMode="light";
          document.querySelector("body").style.backgroundColor ="white";
+         document.querySelector("#website").style.color ="black";
+
      }
      console.log(currMode);
- });
+    });
+    let changeTextBtn=document.querySelector("#changetext");
+    changeTextBtn.addEventListener("click",()=>{
+        let website=document.querySelector("#website");
+        if(website.innerText==="this is my old website"){
+            website.innerText="this is my new website walla the text is changed";
+        }else{
+            website.innerText="this is my old website";
+        }
+    });
