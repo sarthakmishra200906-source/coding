@@ -1,6 +1,0 @@
-a=(1,2,3,4,5,5,5)
-print(a)
-no=a.count(5)
-print(no)
-index=a.index(3)
-print(index)
