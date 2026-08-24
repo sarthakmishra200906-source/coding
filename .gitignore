@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build and coverage output
+coverage/
+.tmp/
+.cache/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and local runtime files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Editor and local settings
+.vscode/*
+!.vscode/copilot-instructions.md
+
+# Temporary and generated source files
+*~
+tempCodeRunnerFile.*
+*.class
+*.out
+*.exe
