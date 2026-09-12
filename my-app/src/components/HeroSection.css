@@ -1,0 +1,19 @@
+/* Hero Section Image Sizing Fix */
+
+.hero-image {
+  max-height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    max-height: 250px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-image {
+    max-height: 400px;
+  }
+}

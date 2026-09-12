@@ -1,17 +1,20 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Textform from './components/TextForm';
+import TextForm from './components/TextForm';
+import HeroSection from './components/HeroSectiontemp';
+import Footer from './components/footer';
 
-
-function App() {
+const App = () => {
   return (
-   <>
-     <Navbar title="My App" aboutus="aboutdeveloper"/>
-  <div className="container">
-    <Textform heading="Contact Us" emailLabel="Your Email" text="Your Message"   />
-  </div>
-   </>
+    <>
+      <Navbar title="My App" aboutus="aboutdeveloper" />
+      <main className="container">
+        <HeroSection />
+        <TextForm heading="Contact Us" emailLabel="Your Email" text="Your Message" />
+        <Footer />
+      </main>
+    </>
   );
-}
+};
 
 export default App;
